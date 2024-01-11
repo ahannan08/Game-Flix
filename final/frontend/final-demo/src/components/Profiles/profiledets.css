@@ -1,0 +1,55 @@
+.profile-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profiledets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(194, 193, 194);
+}
+.name a:hover {
+  color: #d4d4d4;
+  text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+
+
+.achieve,
+.trophies,
+.dob,
+.games {
+  margin-bottom: 10px;
+}
+
+/* Add additional styling as needed */
